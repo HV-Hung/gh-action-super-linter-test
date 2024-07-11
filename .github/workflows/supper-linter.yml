@@ -28,4 +28,6 @@ jobs:
         env:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_JAVASCRIPT_ES: "true"
+          JAVASCRIPT_ES_CONFIG_FILE: "eslint.config.mjs"
 ...
