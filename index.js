@@ -1,6 +1,5 @@
-function doSomething() {
-  console.log('doSomething()');
+function doSomething () {
+  console.log('doSomething()')
 }
-var name = 'foo';
 
 doSomething()
