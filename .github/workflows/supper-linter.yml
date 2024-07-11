@@ -29,6 +29,8 @@ jobs:
           # To report GitHub Actions status checks
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_JAVASCRIPT_ES: "true"
-          # LINTER_RULES_PATH: "/"
+          VALIDATE_ALL_CODEBASE: false
+          LOG_LEVEL: "ERROR"
+          LINTER_RULES_PATH: "/"
           JAVASCRIPT_ES_CONFIG_FILE: ".eslintrc.json"
 ...
