@@ -1,5 +1,5 @@
 function doSomething () {
-  console.log('doSomething()')
+  console.log('Hello world!')
 }
 
 doSomething()
