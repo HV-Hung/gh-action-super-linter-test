@@ -32,7 +32,8 @@ jobs:
           VALIDATE_TYPESCRIPT_ES: true
           VALIDATE_TYPESCRIPT_STANDARD: true
           TYPESCRIPT_ES_CONFIG_FILE: .eslintrc.json
-          FILTER_REGEX_INCLUDE: .*app/.*
+          FILTER_REGEX_INCLUDE: .*app/.
           FILTER_REGEX_EXCLUDE: .*.config.ts
           VALIDATE_TSX: true
+          TSX_LINTER_RULES: .eslintrc.json
 ...
